@@ -6,6 +6,11 @@ export default function Hero() {
       <div className="hero-bg" aria-hidden />
       <div className="container hero-inner">
         <div className="hero-content">
+          <img
+            src={`${import.meta.env.BASE_URL}profile.png`}
+            alt=""
+            className="hero-avatar"
+          />
           <p className="hero-greeting">Hi, I'm</p>
           <h1 className="hero-name">Jeevan Kumar</h1>
           <p className="hero-tagline">

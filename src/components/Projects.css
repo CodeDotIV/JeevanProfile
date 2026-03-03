@@ -104,14 +104,28 @@
   border-radius: 6px;
 }
 
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
 .project-link {
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--accent);
   text-decoration: none;
-  margin-top: 0.25rem;
 }
 
 .project-link:hover {
   text-decoration: underline;
+}
+
+.project-link-code {
+  color: var(--text-muted);
+}
+
+.project-link-code:hover {
+  color: var(--accent);
 }

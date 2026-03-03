@@ -36,6 +36,16 @@
   min-width: 0;
 }
 
+.hero-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.25rem;
+  border: 3px solid var(--border);
+  box-shadow: 0 0 24px var(--accent-dim);
+}
+
 .hero-image-wrap {
   display: flex;
   align-items: center;
