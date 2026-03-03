@@ -25,6 +25,8 @@
   border-radius: 12px;
   overflow: hidden;
   transition: border-color 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card:hover {
@@ -36,6 +38,7 @@
   aspect-ratio: 16 / 10;
   background: var(--bg);
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .project-img {
@@ -58,28 +61,39 @@
 }
 
 .project-body {
-  padding: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .project-title {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 1.2rem;
-  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+  margin: 0;
+  line-height: 1.3;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .project-desc {
   color: var(--text-muted);
-  font-size: 0.95rem;
-  margin: 0 0 1rem;
-  line-height: 1.5;
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.55;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  flex: 1;
+  min-height: 0;
 }
 
 .project-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin: 0.25rem 0 0;
 }
 
 .project-tag {
@@ -95,6 +109,7 @@
   font-weight: 500;
   color: var(--accent);
   text-decoration: none;
+  margin-top: 0.25rem;
 }
 
 .project-link:hover {

@@ -1,18 +1,18 @@
 import './Skills.css'
 
 const skills = [
-  { name: 'HTML5 & CSS', level: 92 },
-  { name: 'JavaScript & TypeScript', level: 90 },
-  { name: 'React.js & Material UI', level: 90 },
-  { name: 'REST APIs integration', level: 88 },
-  { name: 'Version control (Git) & GitHub', level: 88 },
-  { name: 'Chrome DevTools', level: 85 },
-  { name: 'Axios & Fetch API', level: 88 },
-  { name: 'React Testing Library', level: 82 },
-  { name: 'Responsive design', level: 90 },
-  { name: 'Cross-browser compatibility', level: 85 },
-  { name: 'SEO fundamentals', level: 78 },
-  { name: 'Performance optimization', level: 85 },
+  'HTML5 & CSS',
+  'JavaScript & TypeScript',
+  'React.js & Material UI',
+  'REST APIs integration',
+  'Version control (Git) & GitHub',
+  'Chrome DevTools',
+  'Axios & Fetch API',
+  'React Testing Library',
+  'Responsive design',
+  'Cross-browser compatibility',
+  'SEO fundamentals',
+  'Performance optimization',
 ]
 
 export default function Skills() {
@@ -20,25 +20,13 @@ export default function Skills() {
     <section id="skills" className="skills">
       <div className="container">
         <h2 className="section-title">Skills</h2>
-        <p className="section-subtitle">
-          Technologies and tools I work with.
-        </p>
-        <ul className="skills-list">
+        <div className="skills-tags">
           {skills.map((skill) => (
-            <li key={skill.name} className="skill-item">
-              <div className="skill-header">
-                <span className="skill-name">{skill.name}</span>
-                <span className="skill-pct">{skill.level}%</span>
-              </div>
-              <div className="skill-bar">
-                <div
-                  className="skill-fill"
-                  style={{ width: `${skill.level}%` }}
-                />
-              </div>
-            </li>
+            <span key={skill} className="skill-tag">
+              {skill}
+            </span>
           ))}
-        </ul>
+        </div>
       </div>
     </section>
   )
