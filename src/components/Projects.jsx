@@ -30,7 +30,7 @@ const projects = [
     title: 'Zeni',
     description: 'Productivity dashboard with today\'s schedule, smart suggestions, priority tasks, and analytics. Focus time tracking and task completion at a glance.',
     tags: ['Personal', 'Dashboard', 'Productivity'],
-    link: '#',
+    link: 'https://codedotiv.github.io/ZENI/',
     image: 'zeni.png',
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     title: 'Health Claim Cost Prediction',
     description: 'Data-driven analytics and ML-based prediction for health claim costs. Visualizes trends, metrics, and diagnostics for healthcare analytics.',
     tags: ['Analytics', 'ML', 'Healthcare'],
-    link: '#',
+    link: 'https://codedotiv.github.io/Health-care/',
     image: 'health-claim.png',
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     title: 'Campus Projects',
     description: 'Ready-to-use mini and major academic projects from IIIT Ranchi — for final year and campus assignments.',
     tags: ['Campus', 'IIIT Ranchi', 'Academic'],
-    link: '#',
+    link: 'https://codedotiv.github.io/CampusProject/',
     image: 'campus-projects.png',
   },
 ]
