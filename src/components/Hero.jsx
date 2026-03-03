@@ -12,10 +12,24 @@ export default function Hero() {
             Software Engineer with a focus on responsive design and performance optimization. I deliver quality software products and adapt to evolving project needs.
           </p>
           <div className="hero-actions">
-            <a href="#projects" className="btn btn-primary">
+            <a
+              href="#"
+              className="btn btn-primary"
+              onClick={(e) => {
+                e.preventDefault()
+                document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })
+              }}
+            >
               View my work
             </a>
-            <a href="#contact" className="btn btn-secondary">
+            <a
+              href="#"
+              className="btn btn-secondary"
+              onClick={(e) => {
+                e.preventDefault()
+                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
+              }}
+            >
               Get in touch
             </a>
           </div>

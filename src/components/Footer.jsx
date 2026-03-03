@@ -9,7 +9,16 @@ export default function Footer() {
         <p className="footer-copy">
           © {year} Jeevan Kumar
         </p>
-        <a href="#hero" className="footer-back">Back to top</a>
+        <a
+          href="#"
+          className="footer-back"
+          onClick={(e) => {
+            e.preventDefault()
+            document.getElementById('hero')?.scrollIntoView({ behavior: 'smooth' })
+          }}
+        >
+          Back to top
+        </a>
       </div>
     </footer>
   )

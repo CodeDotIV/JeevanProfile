@@ -14,7 +14,8 @@ export default function Header() {
   const [open, setOpen] = useState(false)
 
   const handleNavClick = (e) => {
-    const id = e.currentTarget.getAttribute('href')?.slice(1)
+    e.preventDefault()
+    const id = e.currentTarget.getAttribute('data-section')
     if (id) document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
     setOpen(false)
   }
@@ -22,7 +23,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header-inner container">
-        <a href="#hero" className="logo" onClick={handleNavClick}>
+        <a href="#" className="logo" data-section="hero" onClick={handleNavClick}>
           Portfolio
         </a>
         <button
@@ -40,7 +41,8 @@ export default function Header() {
           {navLinks.map((link) => (
             <a
               key={link.id}
-              href={`#${link.id}`}
+              href="#"
+              data-section={link.id}
               className="nav-link"
               onClick={handleNavClick}
             >
