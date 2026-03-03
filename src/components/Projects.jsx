@@ -22,7 +22,7 @@ const projects = [
     title: 'Jio Workspace',
     description: 'Next-Gen AI Ready Computer. Cloud-based digital workspace with unified communication, AI-powered tools, and collaborative solutions for modern businesses.',
     tags: ['JioPC', 'Cloud', 'AI'],
-    link: '#',
+    link: 'https://jioworkspace.com/?redirectUri=launchpad.jioworkspace.com&login_required=true',
     image: 'jio-workspace.png',
   },
   {
@@ -81,7 +81,12 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <a href={project.link} className="project-link">
+                <a
+                  href={project.link}
+                  className="project-link"
+                  target={project.link.startsWith('http') ? '_blank' : undefined}
+                  rel={project.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+                >
                   View project →
                 </a>
               </div>

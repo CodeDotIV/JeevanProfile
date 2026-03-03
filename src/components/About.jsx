@@ -17,20 +17,6 @@ export default function About() {
               I graduated in Computer Science and Engineering from IIIT Ranchi (2023) and have been building products at Jio Platforms since. I've led the Entrepreneurship Club at IIIT Ranchi and captained the college volleyball team, representing the institute at national-level tournaments.
             </p>
           </div>
-          <div className="about-meta">
-            <div className="meta-item">
-              <span className="meta-label">Education</span>
-              <span className="meta-value">B.Tech CSE, IIIT Ranchi (2023)</span>
-            </div>
-            <div className="meta-item">
-              <span className="meta-label">Location</span>
-              <span className="meta-value">Ranchi, India</span>
-            </div>
-            <div className="meta-item">
-              <span className="meta-label">Availability</span>
-              <span className="meta-value">Open to opportunities</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
