@@ -21,7 +21,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-image-wrap" aria-hidden>
-          <img src="/hero-react.png" alt="" className="hero-image" />
+          <img src={`${import.meta.env.BASE_URL}hero-react.png`} alt="" className="hero-image" />
         </div>
       </div>
     </section>

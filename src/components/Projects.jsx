@@ -28,7 +28,7 @@ const projects = [
     description: 'Productivity dashboard with today\'s schedule, smart suggestions, priority tasks, and analytics. Focus time tracking and task completion at a glance.',
     tags: ['Personal', 'Dashboard', 'Productivity'],
     link: '#',
-    image: '/zeni.png',
+    image: 'zeni.png',
   },
   {
     id: 5,
@@ -36,7 +36,7 @@ const projects = [
     description: 'Data-driven analytics and ML-based prediction for health claim costs. Visualizes trends, metrics, and diagnostics for healthcare analytics.',
     tags: ['Analytics', 'ML', 'Healthcare'],
     link: '#',
-    image: '/health-claim.png',
+    image: 'health-claim.png',
   },
   {
     id: 6,
@@ -44,7 +44,7 @@ const projects = [
     description: 'Ready-to-use mini and major academic projects from IIIT Ranchi — for final year and campus assignments.',
     tags: ['Campus', 'IIIT Ranchi', 'Academic'],
     link: '#',
-    image: '/campus-projects.png',
+    image: 'campus-projects.png',
   },
 ]
 
@@ -61,7 +61,7 @@ export default function Projects() {
             <article key={project.id} className="project-card">
               <div className="project-image">
                 {project.image ? (
-                  <img src={project.image} alt="" className="project-img" />
+                  <img src={`${import.meta.env.BASE_URL}${project.image}`} alt="" className="project-img" />
                 ) : (
                   <div className="project-image-placeholder">
                     <span>{project.title.slice(0, 2)}</span>
