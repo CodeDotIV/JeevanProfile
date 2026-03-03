@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-inner">
         <p className="footer-copy">
-          © {year} Yellutla Jeevan Kumar
+          © {year} Jeevan Kumar
         </p>
         <a href="#hero" className="footer-back">Back to top</a>
       </div>
