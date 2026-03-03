@@ -44,8 +44,8 @@ const projects = [
   {
     id: 6,
     title: 'Campus Projects',
-    description: 'Ready-to-use mini and major academic projects from IIIT Ranchi — for final year and campus assignments.',
-    tags: ['Campus', 'IIIT Ranchi', 'Academic'],
+    description: 'Ready-to-use mini and major academic projects for final year and campus assignments.',
+    tags: ['Campus', 'Academic'],
     link: 'https://codedotiv.github.io/CampusProject/',
     image: 'campus-projects.png',
   },

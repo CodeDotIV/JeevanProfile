@@ -14,7 +14,7 @@ export default function About() {
               I implement responsive design principles and performance optimisation techniques to enhance user satisfaction. I adapt to evolving project needs and maintain a strong focus on quality assurance.
             </p>
             <p>
-              I graduated in Computer Science and Engineering from IIIT Ranchi (2023) and have been building products at Jio Platforms since. I've led the Entrepreneurship Club at IIIT Ranchi and captained the college volleyball team, representing the institute at national-level tournaments.
+              I graduated in Computer Science and Engineering (2023) and have been building products at Jio Platforms since. I've led the Entrepreneurship Club and captained the volleyball team, representing at national-level tournaments.
             </p>
           </div>
         </div>

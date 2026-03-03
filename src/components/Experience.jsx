@@ -18,12 +18,12 @@ const experience = [
 
 const leadership = [
   {
-    role: 'Lead – Entrepreneurship Club, IIIT Ranchi',
-    desc: 'Worked on building EsportsIndia, an e-gaming startup initiative. Organized college-level events to promote awareness and participation in competitive esports.',
+    role: 'Lead – Entrepreneurship Club',
+    desc: 'Worked on building EsportsIndia, an e-gaming startup initiative. Organized campus-level events to promote awareness and participation in competitive esports.',
   },
   {
-    role: 'Captain – Volleyball Team, IIIT Ranchi',
-    desc: 'Led the college volleyball team and represented the institute in national-level tournaments. Participated in Spardha (2022) at IIT (BHU) Varanasi and the Inter IIIT Sports Meet (2019).',
+    role: 'Captain – Volleyball Team',
+    desc: 'Led the volleyball team and represented in national-level tournaments. Participated in Spardha (2022) at IIT (BHU) Varanasi and an inter-institute sports meet (2019).',
   },
 ]
 
