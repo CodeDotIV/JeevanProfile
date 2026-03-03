@@ -9,7 +9,7 @@ export default function Hero() {
           <p className="hero-greeting">Hi, I'm</p>
           <h1 className="hero-name">Yellutla Jeevan Kumar</h1>
           <p className="hero-tagline">
-            Software Development Engineer II with a focus on responsive design and performance optimization. I deliver quality software products and adapt to evolving project needs.
+            Software Engineer with a focus on responsive design and performance optimization. I deliver quality software products and adapt to evolving project needs.
           </p>
           <div className="hero-actions">
             <a href="#projects" className="btn btn-primary">

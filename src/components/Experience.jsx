@@ -2,7 +2,7 @@ import './Experience.css'
 
 const experience = [
   {
-    role: 'Software Development Engineer II',
+    role: 'Software Engineer',
     company: 'Jio Platforms Limited',
     duration: '10/2023 – Present',
     years: '2.6 years',

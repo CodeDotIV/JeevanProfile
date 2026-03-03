@@ -6,7 +6,7 @@ export default function About() {
       <div className="container">
         <h2 className="section-title">About me</h2>
         <p className="section-subtitle">
-          Dedicated Software Development Engineer II with initiative in software product delivery.
+          Dedicated Software Engineer with initiative in software product delivery.
         </p>
         <div className="about-content">
           <div className="about-text">
