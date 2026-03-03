@@ -42,7 +42,8 @@
 
 .skill-fill {
   height: 100%;
-  background: linear-gradient(90deg, var(--accent), #06b6d4);
+  background: linear-gradient(90deg, var(--accent), var(--accent-blue));
   border-radius: 4px;
   transition: width 0.8s ease-out;
+  box-shadow: 0 0 12px var(--accent-dim);
 }

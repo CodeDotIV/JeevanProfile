@@ -25,23 +25,26 @@ const projects = [
   {
     id: 4,
     title: 'Zeni',
-    description: 'Personal project — details available on request.',
-    tags: ['Personal'],
+    description: 'Productivity dashboard with today\'s schedule, smart suggestions, priority tasks, and analytics. Focus time tracking and task completion at a glance.',
+    tags: ['Personal', 'Dashboard', 'Productivity'],
     link: '#',
+    image: '/zeni.png',
   },
   {
     id: 5,
     title: 'Health Claim Cost Prediction',
-    description: 'Analytics and prediction project for health claim costs.',
-    tags: ['Analytics', 'ML'],
+    description: 'Data-driven analytics and ML-based prediction for health claim costs. Visualizes trends, metrics, and diagnostics for healthcare analytics.',
+    tags: ['Analytics', 'ML', 'Healthcare'],
     link: '#',
+    image: '/health-claim.png',
   },
   {
     id: 6,
     title: 'Campus Projects',
-    description: 'Academic and extracurricular projects from IIIT Ranchi.',
-    tags: ['Campus', 'IIIT Ranchi'],
+    description: 'Ready-to-use mini and major academic projects from IIIT Ranchi — for final year and campus assignments.',
+    tags: ['Campus', 'IIIT Ranchi', 'Academic'],
     link: '#',
+    image: '/campus-projects.png',
   },
 ]
 
@@ -56,10 +59,14 @@ export default function Projects() {
         <div className="projects-grid">
           {projects.map((project) => (
             <article key={project.id} className="project-card">
-                <div className="project-image">
-                <div className="project-image-placeholder">
-                  <span>{project.title.slice(0, 2)}</span>
-                </div>
+              <div className="project-image">
+                {project.image ? (
+                  <img src={project.image} alt="" className="project-img" />
+                ) : (
+                  <div className="project-image-placeholder">
+                    <span>{project.title.slice(0, 2)}</span>
+                  </div>
+                )}
               </div>
               <div className="project-body">
                 <h3 className="project-title">{project.title}</h3>

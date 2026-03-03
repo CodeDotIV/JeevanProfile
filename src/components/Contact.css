@@ -3,58 +3,6 @@
   background: var(--surface);
 }
 
-.contact-inner {
-  display: grid;
-  gap: 2.5rem;
-}
-
-@media (min-width: 768px) {
-  .contact-inner {
-    grid-template-columns: 1fr 280px;
-    align-items: start;
-  }
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-}
-
-.form-label {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  font-size: 0.9rem;
-  font-weight: 500;
-  color: var(--text);
-}
-
-.form-input {
-  padding: 0.75rem 1rem;
-  font-family: var(--font-sans);
-  font-size: 1rem;
-  color: var(--text);
-  background: var(--bg);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  transition: border-color 0.2s;
-}
-
-.form-input::placeholder {
-  color: var(--text-muted);
-}
-
-.form-input:focus {
-  outline: none;
-  border-color: var(--accent);
-}
-
-.form-textarea {
-  resize: vertical;
-  min-height: 120px;
-}
-
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -62,7 +10,6 @@
 }
 
 .contact-email,
-.contact-phone,
 .contact-links {
   margin: 0;
   font-size: 0.95rem;
@@ -70,7 +17,6 @@
 }
 
 .contact-email strong,
-.contact-phone strong,
 .contact-links strong {
   display: block;
   color: var(--text);
@@ -78,7 +24,6 @@
 }
 
 .contact-email a,
-.contact-phone a,
 .contact-links a {
   display: block;
   margin-top: 0.25rem;
